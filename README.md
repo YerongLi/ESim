@@ -12,7 +12,7 @@ The implementation of ESim relies on two external packages: [Eigen](http://eigen
 
 First, let's install the GSL.
 ```
-sudo apt-get install libgsl0ldbl
+sudo apt-get install libgsl0-dev
 ```
 Second, we will download Eigen and build the binaries for ESim using Makefile.
 ```
