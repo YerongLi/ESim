@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -lm -pthread -Ofast -march=native -Wall -funroll-loops -Wno-unused-result -lgsl -lm -lgslcblas 
-LFLAGS = -lgsl -lm -lgslcblas
+# LFLAGS = -lgsl -lm -lgslcblas
 INCLUDES = -I/usr/local/include -Ieigen-3.3.3 -I/scratch/yerong/local/GSL-2.6/include
-LIBS = -L/usr/local/lib
+# LIBS = -L/usr/local/lib
 
 BIN = bin/esim bin/search
 
